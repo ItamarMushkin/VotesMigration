@@ -10,7 +10,8 @@ from datetime import datetime
 from column_names import ColumnNames
 
 ENCODING = 'iso-8859-8'
-FOLDER_PATH = r'C:\Users\Asus\Google Drive\Votes Migration 2020'
+# FOLDER_PATH = r'C:\Users\Asus\Google Drive\Votes Migration 2020'
+FOLDER_PATH = 'data files'
 KNESSET_SIZE = 120
 
 
