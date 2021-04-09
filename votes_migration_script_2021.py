@@ -8,7 +8,7 @@ votes_2021 = read_votes_file('votes per settlement 2021.csv', how='settlement')
 votes_2020.drop(9999, inplace=True)
 votes_2021.drop(9999, inplace=True)
 
-votes_2020, votes_2021 = preprocess_data(votes_2020, votes_2021, threshold=0.001)
+votes_2020, votes_2021 = preprocess_data(votes_2020, votes_2021, threshold=0.01)
 vote_transfers = calculate_transfer_matrix(votes_2020,
                                            votes_2021,
                                            seat_tolerance=1.5,
